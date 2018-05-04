@@ -23,7 +23,8 @@
 
     It doesn't matter what values are set beyond the returned length.
 
-     Solution: Have an index of the last seen unqiue element. Iterate through the next element and check if it is equal to the element at the last seen index, if not update the last seen unique element and increment the index.
+     Solution: Have an index of the last seen unqiue element. Iterate through the next element and check if it is equal to the element 
+     at the last seen index, if not update the last seen unique element and increment the index.
      Time Complexity: O(n)
 */
 class Solution {
