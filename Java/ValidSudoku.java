@@ -1,5 +1,4 @@
 /*
-
     Author:     ashacker
     Date:       May 18, 2018
     Problem:    Valid Sudoku
@@ -15,8 +14,7 @@
 
     The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
 
-    Solution: Check each row, column and sub grids for validity by using a set for checking if a number has already been seen.
-              If so, return false, else return true. 
+    Solution: Check each row, column and sub grids for validity by using a set for checking if a number has already been seen. If so, return false, else return true. 
     Time Complexity: O(n^2)
 */
 

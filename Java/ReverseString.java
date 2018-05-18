@@ -6,16 +6,13 @@
     Difficulty: Easy
     Question:
     Write a function that takes a string as input and returns the string reversed.
-
-	Example:
-	Given s = "hello", return "olleh".
-
+    Example:
+    Given s = "hello", return "olleh".
 */
 
 class Solution {
-	/*    
-    Solution 1: Use substrings and divide the string into three parts, concatenate them and
-    			reverse them for the entire length of the string.   
+    /*    
+    Solution 1: Use substrings and divide the string into three parts, concatenate them and reverse them for the entire length of the string.   
     Time Complexity: O(n^2)
     */
     public String reverseStringOne(String s) {
@@ -26,8 +23,7 @@ class Solution {
     }
 
     /*    
-    Solution 2: Convert the string into a char aray. Then run a loop while swapping the first and last
-    			characters in the string.   
+    Solution 2: Convert the string into a char array. Then run a loop while swapping the first and last characters in the string.   
     Time Complexity: O(n)
     */
     public String reverseStringTwo(String s) {

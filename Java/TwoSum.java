@@ -1,5 +1,5 @@
 /*
-	Author:     ashacker
+    Author:     ashacker
     Date:       May 15, 2018
     Problem:    Two Sum
     Difficulty: Easy
